@@ -1,0 +1,15 @@
+.mainfoot{
+     padding: 20px;
+     width: 100%;
+     text-align: center;
+     background-color: rgb(50, 129, 168);
+     color: rgb(2, 2, 1);
+}
+.footermain{
+     background-color: rgb(50, 129, 168);
+     color: rgb(2, 2, 1);
+}
+.socialmedia{
+    display: flex;
+    text-align: center;
+}

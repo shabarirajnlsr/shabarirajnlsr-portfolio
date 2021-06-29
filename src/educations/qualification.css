@@ -1,0 +1,92 @@
+.accordion-body{
+     background-color: rgb(56, 69, 75);
+     color: white;
+}
+.accordion .accordion-item .accordion-button{
+     margin: 5px auto;
+     margin-top: 20px;
+     border: 4px solid rgb(134, 131, 131);
+     border-radius: 15px;
+     position: static;
+}
+.accordion-button{
+     background-color: rgb(50, 129, 168);
+     color: rgb(4, 5, 5);
+}
+.collegeimage{
+     width: 330px;
+     height: 220px;
+     margin-left: 0 auto;
+}
+.cardcollege{
+     margin: 10px auto;
+     text-align: center;
+     width: 350px;
+     max-height: 550px;
+     border:3px solid gray;
+     box-shadow: rgb(65, 65, 243);
+     background-color: rgb(216, 227, 235);
+     color: black;
+     padding: 15px;
+}
+.maincard{
+     display: flex;
+}
+.educationhead{
+     padding: 10px;
+     background-color: rgb(65, 65, 243);
+     color: rgb(236, 181, 40);
+     text-align: center;
+}
+.covidpic{
+     width:350px;
+     height: 220px;
+     border-radius: 5px;
+     margin-left: 0 auto;
+}
+.mainproject{
+     margin: 10px auto;
+     width: 400px;
+     height: 500px;
+     border:3px solid gray;
+     box-shadow: rgb(43, 43, 214);
+     background-color: rgb(216, 227, 235);
+     color: black;
+     padding: 15px;    
+     text-align: center ;
+}
+.covidcontent button{
+     padding: 5px;
+     background-color: white;
+     border-radius: 5px;
+}
+.projcont{
+     text-align: center;
+     padding: 10px;
+}
+@media screen and (max-width:992px) {
+     .maincard{
+          flex-wrap: wrap;
+     }
+     .mainproject{
+          flex-wrap: wrap;
+     }
+}
+@media screen and (max-width:600px) {
+     .collegeimage{
+          margin: 0 auto;
+     }
+     .covidpic{
+          margin: 0 auto;
+     }
+}
+@media screen and (max-width:420px) {
+     .collegeimage{
+          width: 250px;
+          height: 220px;
+     }
+     .covidpic{
+          width:250px;
+          height: 220px;
+     }
+}

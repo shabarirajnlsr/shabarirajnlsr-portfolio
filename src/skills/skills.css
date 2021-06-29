@@ -1,0 +1,45 @@
+.svghtml{
+     width: 70px;
+     height: 70px;
+}
+.skilltech{
+     width:280px;
+     height: 150px;
+     padding: 10px;
+     margin: 20px;
+     border: 2px solid rgb(26, 24, 24);
+}
+.wholeskill .skilltech{
+     margin: 50px auto;
+}
+.skilltech:hover{
+     background-color: rgb(1, 126, 131);
+     color: white;
+}
+.svgpython{
+     width: 70px;
+     height: 70px;
+}
+.prgtech{
+     width:280px;
+     height: 150px;
+     padding: 10px;
+     margin: 20px;
+     border: 2px solid rgb(26, 24, 24);
+     animation: Svgimage 5s infinite;
+}
+.prgtech{
+     margin: 50px auto;
+}
+.prgtech:hover{
+     background-color: rgb(1, 126, 131);
+     color: white;
+}
+@media screen and (max-width:600px) {
+     .svghtml{
+          margin-left: 0px;
+     }
+     .svgpython{
+          margin-left: 0px;
+     }
+}

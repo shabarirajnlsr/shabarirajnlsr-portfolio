@@ -1,0 +1,104 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+.navbar{
+     display: flex;
+     background-color: rgb(50, 129, 168);
+     padding: 20px;
+}
+.navbar .nav-Left{
+     flex: 30%;
+}
+.navbar .nav-right{
+     flex: 70%;
+}
+.nav-Left .ml{
+     display: flex;
+     color: rgb(4, 5, 5);
+     font-size: 20px;
+}
+.nav-right .Links{
+     display: flex;
+     justify-content: flex-end;
+}
+.nav-right .Links .l{
+     color: rgb(4, 5, 5);
+     font-size: 24px;  
+     margin-left: 20px; 
+     text-align: center;  
+}
+.nav-right .Links .l:hover{
+     color: white;
+}
+.nav-Left .ml{
+     color: white;
+}
+.nav-right img{
+     display: none;
+}
+@media screen and (max-width:920px) {
+     .nav-right .Links .l{
+          display: flex;
+          font-size: 20px;
+     }
+}
+@media screen and (max-width:810px) {
+     .nav-right .Links .l{
+          display: flex;
+          font-size: 17px;
+     }
+}
+@media screen and (max-width:600px) {
+     .nav-right img{
+          display: flex;
+     }
+     .nav-right .Links{
+          display: none;
+     }
+     .navbar .nav-right #Hidden{
+          position: absolute;
+          right: 0px;
+          top: 50px;
+          height: auto;
+          width: 100%;
+          background-color:rgb(50, 129, 168);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          font-size: 25px;
+      }
+      .navbar .nav-right #Hidden .l{
+          margin: 15px
+     }
+     .navimage{
+          color: white;
+          background-color:rgb(50, 129, 168);
+          border: none;
+          font-size: 20px;
+     }
+     .nav-right p,img{
+          margin-left: 300px;
+     }
+}
+@media screen and (max-width:525px) {
+     .nav-right p,img{
+          margin-left: 200px;
+     }
+     .nav-Left .ml{
+          font-size: 15px;
+     }
+}
+@media screen and (max-width:388px) {
+     .nav-right p,img{
+          margin-left: 150px;
+     }
+     .nav-Left .ml{
+          font-size: 10px;
+     }
+}
+@media screen and (max-width:340px) {
+     .nav-right p,img{
+          margin-left: 100px;
+     }
+}

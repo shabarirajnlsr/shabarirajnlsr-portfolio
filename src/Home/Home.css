@@ -1,0 +1,81 @@
+.homemaincont{
+     text-align: center;
+     color: blue;
+}
+.homemaincont button{
+     padding: 5px;
+     border: 2px solid gray;
+}
+.homemaincont button:hover{
+     background-color: rgb(30, 199, 199);
+     font-size: 16px;
+}
+.htmlbasiccode{
+     width: 350px;
+     height: 330px;
+     border: 1px solid gray;
+     border-radius: 5px;
+     background-color: black;
+     color: white;
+     box-shadow: rgb(88, 147, 224);
+     margin: 50px auto;
+     padding: 5px;    
+     animation: Image 7s infinite; 
+}
+.mainhtmlcode h2{
+     margin: 30px;
+     text-align: center;
+}
+.mainhtmlcode h4{
+     padding: 10px;
+     margin: 20px auto;
+     border:2px solid rgb(97, 95, 95);
+     width: 300px;
+     height: 80px;
+     text-align: center;
+     background-color: rgb(199, 199, 216);
+}
+/* @keyframes Image{
+     10%{
+          transform: scale(1.1);
+     }
+} */
+.basicreact{
+     padding: 8px;
+     width: 350px;
+     height: 360px;
+     background-color: black;
+     color: white;
+     margin: 50px auto;
+     margin-bottom: 30px;
+     border-radius: 5px;
+     box-shadow:rgb(88, 147, 224);
+     animation: Image 7s infinite;
+}
+.mainreact h2{
+     margin: 50px auto;
+     text-align: center;
+}
+.mainreact h4{
+     padding: 10px;
+     margin: 30px auto;
+     border:2px solid rgb(97, 95, 95);
+     width: 300px;
+     height:190px;
+     text-align: center;
+     background-color: rgb(199, 199, 216);
+}
+/* @keyframes Image{
+     10%{
+          transform: scale(1.1);
+     }
+} */
+@media screen and (max-width:720px) {
+     .htmlbasiccode{
+          font-size: 10px;
+          width: 300px;
+     }    
+     .basicreact{
+          width: 300px;
+     }
+}

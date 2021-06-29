@@ -1,0 +1,47 @@
+.abtimage{
+     width: 280px;
+     height:340px;
+     margin-left: 100px;
+}
+.wholeabt{
+     margin: 0px auto;
+     width: 500px;
+}
+.carromimage{
+     width: 280px;
+     height:300px;
+     margin-left: 100px;
+}
+.chessimage{
+     width: 280px;
+     height:280px;
+     margin-left: 100px;
+}
+.carromgame .chessgame,h3{
+     margin: 20px;
+}
+@media screen and (max-width:600px) {
+     .abtimage{
+          margin-left:30px;
+     }
+     .wholeabt{
+          width: 300px;
+     }
+     .carromimage{
+          margin-left: 30px;
+     }
+     .chessimage{
+          margin-left: 30px;
+     }
+}
+@media screen and (max-width:375px) {
+     .abtimage{
+          margin-left:15px;
+     }
+     .carromimage{
+          margin-left: 15px;
+     }
+     .chessimage{
+          margin-left: 15px;
+     }
+}
